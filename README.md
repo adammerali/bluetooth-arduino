@@ -1,6 +1,6 @@
 # bluetooth-arduino
 
-Control Arduino digital pins over Bluetooth via an HC-05 module. Simple serial command protocol — set pins high/low, blink, read state.
+Control Arduino digital pins over Bluetooth with an HC-05 module. simple serial command prot, ideally would move to some sort of interface or app in future.
 
 ## Wiring
 
@@ -15,7 +15,7 @@ Control Arduino digital pins over Bluetooth via an HC-05 module. Simple serial c
 
 `HIGH:pin` — `LOW:pin` — `BLINK:pin,count,ms` — `STATUS`
 
-## Usage
+## Use
 
 Flash `firmware/bt_controller/bt_controller.ino`, pair the HC-05, then:
 
