@@ -1,6 +1,6 @@
 # bluetooth-arduino
 
-Control Arduino digital pins over Bluetooth with an HC-05 module. simple serial command prot, ideally would move to some sort of interface or app in future.
+Control Arduino digital pins over Bluetooth with an HC-05 module. simple uart prot, ideally would move to some sort of interface or app in future. Going to use to hook up current keyboard design to be wireless instead of wired.
 
 ## Wiring
 
